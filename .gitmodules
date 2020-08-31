@@ -1,0 +1,7 @@
+[submodule "themes/hugo-theme-codex"]
+	path = themes/hugo-theme-codex
+	url = https://github.com/jakewies/hugo-theme-codex.git
+[submodule "supra08.github.io"]
+	path = supra08.github.io
+	url = git@github.com:supra08/supra08.github.io.git
+	branch = master
