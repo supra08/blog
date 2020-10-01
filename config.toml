@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Supratik Das"
 languageCode = "en-us"
-baseURL = "https://supratikdas.co/"
+baseURL = "https://supratikdas.com/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -20,7 +20,7 @@ copyright = "© {year}"
   dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/supratik_08"
+  twitter = "https://twitter.com/supradeux"
   github = "https://github.com/supra08"
   email = "mailto:rick.das08@gmail.com"
   # facebook = "https://facebook.com/"
@@ -78,6 +78,12 @@ copyright = "© {year}"
   name = "resume"
   title = "Resume"
   url = "/resume.pdf"
+
+[[menu.main]]
+  identifier = "projects"
+  name = "projects"
+  title = "Projects"
+  url = "/projects"
 
 
 

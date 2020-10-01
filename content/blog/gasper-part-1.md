@@ -2,10 +2,10 @@
 title: "Gasper Part 1"
 date: 2020-08-31T20:34:39+05:30
 slug: ""
-description: ""
+description: "Your cloud in a binary!"
 keywords: []
 draft: true
-tags: []
+tags: ["cloud", "microservices", "PaaS"]
 math: false
 toc: false
 ---
@@ -76,8 +76,8 @@ Go, besides the fact that it came from Google, is famous for its efficient reali
 
 ## The final take:
 
-The next we have **Enrai**, the reverse proxy server. Among all the services, only Enrai is given a public IP and the rest of the apps are proxied through it. Laying it down simply, it is *a server that receives requests from clients and forwards them to the respective instances* (containers in our case). \\
-Gasper boasts an internal DNS resolution service, too, **Hikari**. It allots domain names to the apps and databases and maintains the DNS records, ensuring an even distribution.\\
+The next we have **Enrai**, the reverse proxy server. Among all the services, only Enrai is given a public IP and the rest of the apps are proxied through it. Laying it down simply, it is *a server that receives requests from clients and forwards them to the respective instances* (containers in our case). \
+Gasper boasts an internal DNS resolution service, too, **Hikari**. It allots domain names to the apps and databases and maintains the DNS records, ensuring an even distribution.\
 
 A lot things coming up altogether? This diagram might ease out things:
 ![request_proxy](/posts/gasper-part-1/request-proxy.png)
