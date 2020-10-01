@@ -1,4 +1,4 @@
 ---
-heading: "Hi, I'm Supratik"
-subheading: "I'm a software developer and a security enthusiast"
+heading: "Supratik Das"
+subheading: "Software Developer | Security Enthusiast"
 ---
